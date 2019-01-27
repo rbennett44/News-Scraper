@@ -1,0 +1,28 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "news scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbennett44/News-Scraper.git"
+  },
+  "author": "richard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbennett44/News-Scraper/issues"
+  },
+  "homepage": "https://github.com/rbennett44/News-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.6",
+    "request": "^2.88.0"
+  }
+}
